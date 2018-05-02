@@ -5,6 +5,8 @@ header, section, footer, aside, nav, main, article, figure {
 body {
   max-width: 1200px;
   margin: auto;
+  min-width: 1200px;
+  font-family: Arial;
 }
 a {
   color: white;
@@ -15,17 +17,6 @@ a,p,h5,h4,h3,h2,h1{
   font-family: arial;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  background-color: #002647;
-  width: 100%
-  border-style
-}
-
-body {
-  min-width: 950px;
-}
 
 p, h4, li {
   color: white;
@@ -105,15 +96,10 @@ p, h4, li {
   padding: 5% 0;
 }
 
-.contact-top-lower nav div:hover {
-  background-color: #193B5A;
-}
 
 .contact-top-lower nav div p{
   font-size: 2em;
 }
-
-
 
 .joyceLogo {
 
@@ -126,25 +112,21 @@ p, h4, li {
   display:block;
 }
 
-.main-pic {
-  padding: 0%;
 
-}
-.main-pic img {
-  position:inherit;
-  width: 100%;
-  height: 40%;
-  margin-top: 0;
-  padding-top: 0;
+
+.nav-pics h5 {
+  text-align: center;
+  color: white;
 }
 
 #portfolio {
-  width: 100%;
+  min-width: 200px;
 }
 
-table th h3 {
+table h5 {
   font-family: "Arial Black", Gadget, sans-serif;
-  color: white;
+  color:white;
+  font-size: 1em;
 }
 
 .comments {
@@ -153,7 +135,7 @@ table th h3 {
   display: flex;
   background-size: cover;
   width: 100%;
-  overflow: auto;
+  overflow: none;
   background-image: url("../Images/map.jpeg");
   border: solid white thin;
   border-top: none;
@@ -230,6 +212,34 @@ footer .container {
   margin: 0 auto;
 }
 
+.references {
+  background-color: #002647;
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+   width: 700px;
+   height: 400px;
+   background-color: grey;
+}
+
+.nav-pics {
+  padding: 5%;
+  padding-top: 600px;
+  background-color:#193B5A;
+  border: solid white thin;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* begin copying here */
+/* begin copying here */
+/* begin copying here */
+/* begin copying here */
+
 .dropDown {
   background-color: #193B5A;
   display: flex;
@@ -264,4 +274,53 @@ footer .container {
   max-width: 200px;
   max-height: 100px;
 
+}
+
+.slides {
+  position: absolute;
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 200px;
+  color: white;
+  font-family: Palatino;
+  font-size: 3em;
+}
+
+# textWrapper {
+  background-color: grey;
+}
+
+.main-pic {
+  padding: 0%;
+  position: relative;
+
+}
+.main-pic img {
+  position:absolute;
+  width: 1198px;
+  min-height: 475px;
+  margin-top: 0;
+  padding-top: 0;
+  border: solid white 1px;
+  opacity: .5;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #002647;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-pics {
+  /*padding: 5%;
+  padding-top: 712px;*/
+  background-color:#193B5A;
+  border: solid white thin;
+}
+
+.all-comments div {
+  height: 124px;
 }
