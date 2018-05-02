@@ -1,0 +1,326 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+  }
+
+body {
+  max-width: 1200px;
+  margin: auto;
+  min-width: 1200px;
+  font-family: Arial;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a,p,h5,h4,h3,h2,h1{
+  font-family: arial;
+}
+
+
+p, h4, li {
+  color: white;
+}
+.contact-top  {
+  background-color: #002647;
+  height: 40px;
+}
+
+.contact-top * {
+  display: inline-block;
+}
+
+.contact-top img{
+  height: 35px;
+}
+
+.contact-top button{
+  max-height: 35px;
+  margin-bottom: 0;
+  margin-top: 0;
+  float: inherit;
+  background-color: #EF4123;
+  text-align: center;
+  border-color: white;
+  border-bottom: none;
+  color: white;
+
+}
+
+.contact-top button:hover {
+  background-color: #193B5A;
+}
+
+.contact-top ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.pull-left{
+  width: 50%;
+}
+
+.pull-left li{
+  display: block;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.contact-top .pull-left{
+  float:left;
+  padding-left: 6%;
+}
+.pull-left h4 {
+  display: inline-flex;
+  padding-left: 10%;
+}
+.contact-top .pull-right {
+  float: right;
+  padding-right: 6%;
+}
+
+.contact-top-lower {
+  width: 100%;
+  background-color: #002647;
+  text-align: center;
+  min-height: 25px;
+}
+.contact-top-lower nav div{
+  display:flex;
+  justify-content: space-around;
+  border: solid white thin;
+  padding:0 10%;
+}
+
+.contact-top-lower nav a {
+  padding: 5% 0;
+}
+
+
+.contact-top-lower nav div p{
+  font-size: 2em;
+}
+
+.joyceLogo {
+
+  margin: auto;
+  background-color: white;
+}
+
+#joyceLogo {
+  margin: auto;
+  display:block;
+}
+
+
+
+.nav-pics h5 {
+  text-align: center;
+  color: white;
+}
+
+#portfolio {
+  min-width: 200px;
+}
+
+table h5 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  color:white;
+  font-size: 1em;
+}
+
+.comments {
+  min-height: 10px;
+  min-width: 10px;
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  overflow: none;
+  background-image: url("../Images/map.jpeg");
+  border: solid white thin;
+  border-top: none;
+}
+
+.comments div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-height: 200px;
+}
+
+.comments img {
+  padding: 8% 0 8% 4%;
+  width: 25%;
+  height: 50%
+
+}
+
+.comments aside {
+  float: right;
+  margin: 2%;
+  padding: 2%;
+
+}
+
+.all-comments {
+  margin: auto;
+
+}
+
+footer {
+  background-color: #002647;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+
+footer table {
+  margin: auto;
+  width: 90%;
+}
+
+footer .container {
+  border: solid white thin;
+  padding: 0% 4%;
+  width: 25%;
+}
+.container li, h5 {
+  display: block;
+  text-align: center;
+}
+
+.container ul {
+  padding-left: 0;
+}
+
+.container h5 {
+  font-family: "Arial Black", Gadget, sans-serif;
+  color:white;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.container table {
+  display: block;
+}
+
+.container li {
+  padding-top: 2%;
+  margin: 0 auto;
+}
+
+.references {
+  background-color: #002647;
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+   width: 700px;
+   height: 400px;
+   background-color: grey;
+}
+
+.nav-pics {
+  padding: 5%;
+  padding-top: 600px;
+  background-color:#193B5A;
+  border: solid white thin;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* begin copying here */
+/* begin copying here */
+/* begin copying here */
+/* begin copying here */
+
+.dropDown {
+  background-color: #193B5A;
+  display: flex;
+  padding: 0px 0px 0px 0px !important;
+}
+
+.dropDown p {
+  font-size: 1em !important;
+  width: 70%;
+  padding-top: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.dropDown a {
+  text-decoration: underline;
+  color: #EF4123;
+  padding-top: 2px;
+
+}
+
+#contactNav {
+  max-width: 240px;
+  padding-right: 70px;
+}
+
+.dropDownImage {
+  padding: 0px 0px 0px 0px !important;
+  margin-left: 40px;
+  border: none;
+  float:right;
+  max-width: 200px;
+  max-height: 100px;
+
+}
+
+.slides {
+  position: absolute;
+  text-align: center;
+  margin-top: 120px;
+  margin-left: 200px;
+  color: white;
+  font-family: Palatino;
+  font-size: 3em;
+}
+
+# textWrapper {
+  background-color: grey;
+}
+
+.main-pic {
+  padding: 0%;
+  position: relative;
+
+}
+.main-pic img {
+  position:absolute;
+  width: 1198px;
+  min-height: 475px;
+  margin-top: 0;
+  padding-top: 0;
+  border: solid white 1px;
+  opacity: .5;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #002647;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-pics {
+  /*padding: 5%;
+  padding-top: 712px;*/
+  background-color:#193B5A;
+  border: solid white thin;
+}
+
+.all-comments div {
+  height: 124px;
+}
