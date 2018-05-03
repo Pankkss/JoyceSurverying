@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<html manifest="..\Resources\appcache\portfolio.appcache">
+
 		<title>Joyce Surveying</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8"/>
@@ -92,24 +94,35 @@
 			<div class="nav-pics">
 				<table>
 					<tr>
-						<td>
-							<h5>Find us before we find you!!</h5>
-						</td>
+						<th>
+
+						</th>
+						<th>
+							<h3>Portfolio</h3>
+						</th>
 					</tr>
 					<tr>
 						<td>
-							<div id="map">
-							</div>
+							<img class="picGroup1" src="..\Resources\Images\castle2.jpg" alt="Services" id="services"/>
+							<img class="picGroup1" src="..\Resources\Images\castle.jpeg" alt="About" id="about"/>
+							<img class="picGroup1" src="../Resources\Images\house.jpeg" alt="Contact" id="contact"/>
 						</td>
-					</tr>
-					<tr>
+
 						<td>
-							<h5>Click Here for Directions<h5>
+							<img class="picGroup2" src="..\Resources\Images\house2.jpeg" alt="Services" id="services"/>
+							<img class="picGroup2" src="..\Resources\Images\lighthouse.jpeg" alt="About" id="about"/>
+							<img class="picGroup2" src="../Resources\Images\museum.jpeg" alt="Contact" id="contact"/>
 						</td>
+
+						<td>
+							<img class="picGroup3" src="..\Resources\Images\parkinglot.jpeg" alt="Services" id="services"/>
+							<img class="picGroup3" src="..\Resources\Images\whitehouse.jpeg" alt="About" id="about"/>
+							<img class="picGroup3" src="../Resources\Images\shed.jpeg" alt="Contact" id="contact"/>
 					</tr>
 				</table>
 			</div>
 		</div>
+
 		<!-- customer comments -->
 		<div class="comments">
 			<div class="all-comments">
@@ -168,9 +181,6 @@
 					</ul>
 				</div>
 		</footer>
-		<script async
-  		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ_ueH-TqLui-LVM_rAwk3xc_IbAYQJWg&callback=initMap">
-		</script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="..\Resources\JavaScript\portfolio.js"></script>
 

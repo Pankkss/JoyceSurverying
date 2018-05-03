@@ -1,3 +1,9 @@
+@media printing {
+  footer {
+    display: none;
+  }
+}
+
 header, section, footer, aside, nav, main, article, figure {
     display: block;
   }
@@ -114,7 +120,7 @@ p, h4, li {
 
 
 
-.nav-pics h5 {
+.nav-pics h3 {
   text-align: center;
   color: white;
 }
@@ -319,6 +325,11 @@ header {
   padding-top: 712px;*/
   background-color:#193B5A;
   border: solid white thin;
+  height: 280px;
+}
+
+.nav-pics img {
+  max-width: 90%
 }
 
 .all-comments div {

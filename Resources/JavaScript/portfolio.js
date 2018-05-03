@@ -25,10 +25,7 @@ function main()
 
   slideshow();
   commentSlideShow();
-
-  initMap();
-
-
+  picSlides();
 }
  // hides top nav drop down boxes
 function hideNav()
@@ -119,18 +116,28 @@ function commentSlideShow()
   return;
 }
 
-function initMap() {
-        var uluru = {lat: 27.9878, lng: 86.9250};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 10,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
+var picIndex=0;
+function picSlides() {
+  var slide1 = document.getElementsByClassName('picGroup1');
+  var slide2 = document.getElementsByClassName('picGroup2');
+  var slide3 = document.getElementsByClassName('picGroup3');
 
-
+  for(var x=0; x < slide1.length; x++)
+  {
+    slide1[x].style.display="none";
+    slide2[x].style.display="none";
+    slide3[x].style.display="none";
+  }
+  picIndex++;
+  if(picIndex == slide1.length)
+  {
+    picIndex = 0;
+  }
+  slide1[picIndex].style.display="block";
+  slide2[picIndex].style.display="block";
+  slide3[picIndex].style.display="block";
+  setTimeout(picSlides, 5000);
+  return;
+}
 
 $(document).ready(main);

@@ -1,0 +1,9 @@
+CACHE MANIFEST
+ \Resources\CSS\portfolio.css
+ \logo.gif\Resources\Images\cropped-JSMwebsiteheader.png
+\Resources\JavaScript\portfolio.js
+
+ NETWORK:
+
+ FALLBACK:
+ /html/ /offline.html

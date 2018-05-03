@@ -26,9 +26,6 @@ function main()
   slideshow();
   commentSlideShow();
 
-  initMap();
-
-
 }
  // hides top nav drop down boxes
 function hideNav()
@@ -118,19 +115,4 @@ function commentSlideShow()
   setTimeout(commentSlideShow, 5000);
   return;
 }
-
-function initMap() {
-        var uluru = {lat: 27.9878, lng: 86.9250};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 10,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-
-
-
 $(document).ready(main);

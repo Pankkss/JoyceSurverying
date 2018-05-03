@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<html manifest="..\Resources\appcache\contact.appcache">
+
 		<title>Joyce Surveying</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8"/>
@@ -90,24 +92,25 @@
 			</div>
 			<!-- map begins here -->
 			<div class="nav-pics">
-				<table>
-					<tr>
-						<td>
-							<h5>Find us before we find you!!</h5>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div id="map">
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<h5>Click Here for Directions<h5>
-						</td>
-					</tr>
-				</table>
+				<form action="www.dsfkljajsdfiejf.com" method="post">
+					<fieldset>
+						<legend>
+							Contact Information
+						</legend>
+						<label>Name:</label> <br />
+						<input type="text" name="name" /><br />
+						<label>Email:</label><br />
+						<input type="email" name="email"/><br />
+						<label>Phone Number:</label><br />
+						<input type="tel" name="telephone"/><br />
+						<label>Is This a Prank?</label><br />
+						<label>Yes, I'm Sorry<input type="radio" name="prank" /></label><br />
+						<label>No, of course not<input type="radio" name="prank" /></label><br />
+						<label>Details:</label><br />
+						<input type="textarea" name="details" id="textarea"/><br />
+						<input type="submit" /><br />
+					</fieldset>
+				</form>
 			</div>
 		</div>
 		<!-- customer comments -->

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<html manifest="..\Resources\appcache\about.appcache">
+
 		<title>Joyce Surveying</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8"/>
@@ -90,26 +92,25 @@
 			</div>
 			<!-- map begins here -->
 			<div class="nav-pics">
-				<table>
-					<tr>
-						<td>
-							<h5>Find us before we find you!!</h5>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<div id="map">
-							</div>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<h5>Click Here for Directions<h5>
-						</td>
-					</tr>
-				</table>
-			</div>
-		</div>
+					<table>
+						<tr>
+							<th>
+								<h3>Who we Are</h3>
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<img src="..\Resources\Images\people-office-group-team.jpg" width = 500px; id="services"/>
+							</td>
+							<td>
+								<p>Joyce Surveying &amp Mapping is a family owned surveying and plotting firm located in the United States.
+									For over 600 years, the Joyce family has been dedicated to creating the finest Surveying
+									maps for the most exclusive water parks and highest end pet stores. Our focus on customer
+									first and results second has earned us a place amoung the top map makers in histroy.</p>
+							</td>
+						</tr>
+					</table>
+				</div>
 		<!-- customer comments -->
 		<div class="comments">
 			<div class="all-comments">
@@ -168,9 +169,6 @@
 					</ul>
 				</div>
 		</footer>
-		<script async
-  		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDZ_ueH-TqLui-LVM_rAwk3xc_IbAYQJWg&callback=initMap">
-		</script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="..\Resources\JavaScript\about.js"></script>
 
